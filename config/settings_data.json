@@ -58,7 +58,7 @@
           "home_page_only": true,
           "message_text": "Announce something here",
           "message_link": "",
-          "color_bg": "#7796a8",
+          "color_bg": "#142028",
           "color_text": "#fff"
         }
       },
@@ -89,12 +89,12 @@
       "feature-row": {
         "type": "feature-row",
         "settings": {
-          "image": "",
+          "image": "shopify:\/\/shop_images\/thank-you-for-your-service.jpg",
           "layout": "left",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": "",
-          "button_link": ""
+          "title": "We're not just selling. We're making friends!",
+          "text": "<p>At NopeLess, we commit to two things only: HAPPY &amp; FUN.<\/p>\n<p>We're not&nbsp;just&nbsp;another store, we're friends. Need help, give me a message, we will chit chat together.<\/p>",
+          "button_label": "Need Help?",
+          "button_link": "shopify:\/\/pages\/contact-us"
         }
       },
       "footer": {
@@ -124,12 +124,79 @@
         "settings": {
           "cart_notes_enable": false
         }
+      },
+      "1528445850015": {
+        "type": "quotes",
+        "blocks": {
+          "1528445850015-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Their products are amazing and fun, worth a try<\/p>",
+              "author": "Lynda"
+            }
+          },
+          "1528445850015-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>The site or self is easy to use and very friendly. You could find a lot of cool stuff in there. The check out process is easy and quick.<\/p>",
+              "author": "Tracy"
+            }
+          },
+          "1528445850015-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Love NopeLess! Awesome selection of gifts!<\/p>",
+              "author": "Dave"
+            }
+          },
+          "1528446006997": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Advertising honest, delivery quick and prices good<\/p>",
+              "author": "Cindy"
+            }
+          },
+          "1528446019855": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>They were extremely quick and I love their products<\/p>",
+              "author": "Yasir"
+            }
+          },
+          "1528446037935": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>excellent ordered and rec'd fast!! love it<\/p>",
+              "author": "Mark"
+            }
+          },
+          "1528446055102": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Fast and excellent service<\/p>",
+              "author": "Jon"
+            }
+          }
+        },
+        "block_order": [
+          "1528445850015-0",
+          "1528445850015-1",
+          "1528445850015-2",
+          "1528446006997",
+          "1528446019855",
+          "1528446037935",
+          "1528446055102"
+        ],
+        "settings": {
+          "title": "What the others saying?"
+        }
       }
     },
     "content_for_index": [
       "hero",
       "featured-collections",
-      "feature-row"
+      "feature-row",
+      "1528445850015"
     ]
   },
   "presets": {
