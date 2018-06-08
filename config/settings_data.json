@@ -110,12 +110,12 @@
       "product-template": {
         "type": "product-template",
         "settings": {
-          "image_size": "medium",
-          "show_quantity_selector": false,
+          "image_size": "large",
+          "show_quantity_selector": true,
           "show_variant_labels": true,
           "show_vendor": false,
           "enable_zoom": true,
-          "enable_payment_button": false,
+          "enable_payment_button": true,
           "show_share_buttons": true
         }
       },
@@ -189,6 +189,18 @@
         ],
         "settings": {
           "title": "What the others are saying?"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
         }
       }
     },
