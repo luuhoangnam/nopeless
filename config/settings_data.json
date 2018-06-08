@@ -65,49 +65,14 @@
       "hero": {
         "type": "hero",
         "settings": {
-          "image": "",
+          "image": "shopify:\/\/shop_images\/cool-pool-pineapple.jpg",
           "alignment": "center",
-          "title": "Image with text overlay",
-          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-          "hero_size": "medium",
+          "title": "Be COOL in Summer",
+          "text": "<p>You're HOT or You're COOL. Why not both?<\/p>",
+          "hero_size": "small",
           "text_size": "large",
           "button_label": "",
           "button_link": ""
-        }
-      },
-      "slideshow": {
-        "type": "slideshow",
-        "blocks": {
-          "slideshow-0": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "alignment": "top",
-              "title": "Image slide",
-              "subheading": "Tell your brand's story through video and images",
-              "link": ""
-            }
-          },
-          "slideshow-1": {
-            "type": "image",
-            "settings": {
-              "image": "",
-              "alignment": "top",
-              "title": "Image slide",
-              "subheading": "Tell your brand's story through video and images",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "slideshow-0",
-          "slideshow-1"
-        ],
-        "settings": {
-          "autoplay": true,
-          "autoplay_speed": 7,
-          "slideshow_height": "small",
-          "text_size": "medium"
         }
       },
       "featured-collections": {
@@ -164,8 +129,7 @@
     "content_for_index": [
       "hero",
       "featured-collections",
-      "feature-row",
-      "slideshow"
+      "feature-row"
     ]
   },
   "presets": {
