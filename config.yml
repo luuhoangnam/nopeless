@@ -1,4 +1,8 @@
 development:
   password: f4851ff7b0380db4afd5d4d9808bb7cc
+  theme_id: "19876937843"
+  store: nopelesscom.myshopify.com
+production:
+  password: f4851ff7b0380db4afd5d4d9808bb7cc
   theme_id: "19282198643"
   store: nopelesscom.myshopify.com
