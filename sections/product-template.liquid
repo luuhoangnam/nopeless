@@ -175,14 +175,29 @@
           role="status"
         ></p>
 
-        <div class="product-single__description rte">
-          {{ product.description }}
-        </div>
+        
 
         {% if section.settings.show_share_buttons %}
           {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}
         {% endif %}
       </div>
+    
+    
+    
+    
+    
+    <div class="grid__item small--one">
+      
+      <hr class="description__separator"/>
+
+      <h2>Product Description</h2>
+
+      <div class="product-single__description rte">
+        {{ product.description }}
+      </div>
+
+      <hr class="description__separator"/>
+    </div>
     </div>
   </div>
 </div>
